@@ -2,6 +2,9 @@ package com.cconnachan.wordcounter;
 
 import org.junit.Before;
 import org.junit.Test;
+import com.cconnachan.wordcounter.WordCounter;
+
+import static org.junit.Assert.assertEquals;
 
 public class WordCounterTest {
 
@@ -18,7 +21,7 @@ public class WordCounterTest {
         assertEquals(5, wordCounter.count(string));
     }
 
-    
+
 
 
 
