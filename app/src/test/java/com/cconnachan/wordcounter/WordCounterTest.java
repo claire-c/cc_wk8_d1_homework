@@ -13,5 +13,13 @@ public class WordCounterTest {
     }
 
     @Test
-    public void 
+    public void canCountWords(){
+        String string = "hello there how are you";
+        assertEquals(5, wordCounter.count(string));
+    }
+
+    
+
+
+
 }
