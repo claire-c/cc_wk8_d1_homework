@@ -2,8 +2,9 @@ package com.cconnachan.wordcounter;
 
 public class WordCounter {
 
-    public int count(String paragraphToCount){
+    public String count(String paragraphToCount){
         String[] arrayToCount = paragraphToCount.split(" ");
-        return arrayToCount.length;
+        int num = arrayToCount.length;
+        return Integer.toString(num);
     }
 }

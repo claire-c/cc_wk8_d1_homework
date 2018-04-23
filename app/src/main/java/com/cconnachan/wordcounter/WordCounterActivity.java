@@ -19,6 +19,12 @@ public class WordCounterActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_word_counter);
+
+        wordsEditText = findViewById(R.id.wordsEditText);
+        answerTextView = findViewById(R.id.answerTextView);
+        button = findViewById(R.id.button);
+        answerTextView.setText("The answer will go here.");
+        wordCounter = new WordCounter();
     }
 
     public void onButtonClicked(View button){
